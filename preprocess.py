@@ -1,33 +1,47 @@
 import json
+from llm_help import llm
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
+from langchain_core.exceptions import OutputParserException
 
 def process_post(raw_file_path, processes_file_path="Data/processed_posts.json"):
+    enriched_posts = []
     with open(raw_file_path, encoding='utf-8') as file:
-        posts=json.load(file)
+        posts = json.load(file)
         for post in posts:
-            metadata=extract_metadata(post['text'])
-            post={tex}
+            metadata = extract_metadata(post['text'])
+            post_with_metadata = post | metadata
+            enriched_posts.append(post_with_metadata)
+
+    # unified_tags = get_unified_tags(enriched_posts)
+    for post in enriched_posts:
+        print(post)
 
 def extract_metadata(post): 
-    return{
-        'lineCount':10,
-        "language":"English",
-        'tags':["LLMs","Building in public"],
-    }
+    template = '''
+    You are given a LinkedIn post. You need to extract number of lines, language of the post and tags.
+    1. Return a valid JSON. No preamble. 
+    2. JSON object should have exactly three keys: line_count, language and tags. 
+    3. tags is an array of text tags. Extract maximum two tags.
+    4. Language should be English or Hinglish (Hinglish means hindi + english)
+    
+    Here is the actual post on which you need to perform this task:  
+    {post}
+    '''
 
-if __name__=="__main__":
-    # import os
-    # import sys
-    # from preprocess import preprocess
+    pt = PromptTemplate.from_template(template)
+    chain = pt | llm
+    response = chain.invoke(input={"post": post})
 
-    # if len(sys.argv) != 3:
-    #     print("Usage: python preprocess.py <input_dir> <output_dir>")
-    #     sys.exit(1)
+    try:
+        json_parser = JsonOutputParser()
+        res = json_parser.parse(response.content)
+    except OutputParserException:
+        raise OutputParserException("Context too big. Unable to parse jobs.")
+    return res
 
-    # input_dir = sys.argv[1]
-    # output_dir = sys.argv[2]
 
-    # if not os.path.exists(output_dir):
-    #     os.makedirs(output_dir)
 
-    # preprocess(input_dir, output_dir)
-    process_post("Data/raw_post.json","Data/processed_post.json")
+
+if __name__ == "__main__":
+    process_post("Data/raw_post.json", "Data/processed_posts.json")
