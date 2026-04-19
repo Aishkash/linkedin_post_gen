@@ -1,0 +1,144 @@
+[
+    {
+        "text": "If you\u2019re building with LLMs and keep thinking \u2018someone must have already done this better\u2019\u2026 you\u2019re right.\ud83d\ude80\n\nI just stumbled on the single best GitHub repo I\u2019ve seen in 2026:\nAwesome-llm-apps\u2014a living, breathing collection of 70+ real, ready-to-run LLM applications packed with AI agents, RAG pipelines, multi-agent teams, voice agents, and everything in between.\n\nWe\u2019re talking.\n\nStarter agents that plan your next trip or roast your memes\nAdvanced multi-agent crews doing VC due diligence, fraud investigation, and legal reviews\n\nSelf-evolving agents that actually improve their own skills\nVoice RAG agents, game-playing agents, MCP agents that control browsers and GitHub\u2026\n\nAnd deep dives into agentic RAG, memory, fine-tuning, and cost optimization\n\nAll of it using OpenAI, Anthropic, Gemini, xAI, or fully open-source models like Llama & Gemma.\n\n104,000 stars. Updated literally hours ago. Every project has clean code, requirements, and a README that actually gets you running in minutes.\nIf you\u2019re in AI, data, product, or just love building things that feel like magic\u2026 This repo is pure gold.\n\n\ud83d\udd17 Grab it here before your next side project: Shubham Saboo\nhttps://lnkd.in/ghrENSrT\n\nQuick question for you:\nWhat\u2019s ONE LLM app or agent you\u2019ve always wanted to build but never got around to? Drop it below. I might just clone it this weekend",
+        "engagement": 31,
+        "line_count": 11,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "text": "Just read this Reddit post from r/csMajors and it stopped me cold. \ud83d\ude80\n\nA guy who got hired at Anthropic three weeks ago dropped this:\n\u2018His team doesn\u2019t write code anymore.\nNobody on the team has hand-written code in months.\nThey run multiple agents in parallel and act more like managers than engineers.\u2019\n\nThe mental model shift he described is wild:\n\u2018You\u2019re not using AI to code faster.\nYou are the PM. The agents are your engineers.\n\nYour only job is to keep them all unblocked.\u2019\nHe called the productivity gap between people who\u2019ve made this switch and people who haven\u2019t \u2018already enormous,\u2019 and this is inside Anthropic, where everyone is fully bought into AI by default.\nThis isn\u2019t some far-future vision. It\u2019s happening right now in 2026.\nI\u2019ve been experimenting with exactly this kind of multi-agent orchestration in n8n (the news summarizer workflow I shared recently is just the beginning). Once you start spinning up agents instead of writing every line yourself, you genuinely feel the shift.\nThe question isn\u2019t \u2018Will AI replace engineers?\u2019 anymore.\n\nIt\u2019s \u2018Are you still writing code\u2026 or are you directing the team that does?\u2019\nIf you\u2019re in tech, data, or product, where do you stand right now? Still grinding solo in the IDE, or already running your own agent fleet?\nDrop your take below. \ud83d\udc47 I\u2019m reading every comment.",
+        "engagement": 127,
+        "line_count": 11,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence",
+            "Productivity"
+        ]
+    },
+    {
+        "text": "Jensen Huang just dropped the ultimate AI wake-up call: \u2018Top engineers should be using AI aggressively\u2026 not avoiding it.\u2019\n\nHe\u2019s not whispering it either; the Nvidia CEO says companies should be ready to spend AI tokens worth up to HALF an engineer\u2019s salary. Why?\n\nBecause it can unlock 10\u00d7 productivity and has quietly become one of the strongest recruiting levers in Silicon Valley.\n\nTokens aren\u2019t some nerdy metric anymore. They\u2019re being treated like salary, bonuses, and equity combined are the new currency of real output and competitive edge.\n\nSam Altman is right there with him, calling it \u2018universal basic compute.\u2019\nThis isn\u2019t futurist talk. This is happening right now.\n\nThe game has changed: the teams (and people) who treat AI tokens as a core investment are pulling ahead fast.\n\nSo here\u2019s the real question:\nAre you (or your company) allocating for AI the way Silicon Valley already is\u2026 or still pretending it\u2019s optional?\n\nDrop your honest take below. \ud83d\udc47 I read every single one.",
+        "engagement": 105,
+        "line_count": 9,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence",
+            "Technology"
+        ]
+    },
+    {
+        "text": "Ever sat in a meeting pretending you know what \u2018LLM\u2019, \u2018Transformer\u2019, or \u2018GenAI\u2019 actually means? \ud83d\ude4b\u200d\u2642\ufe0f\n\nSame.\n\nThis one chart just ended the confusion forever:\n\n\ud83d\udc49AI = the big umbrella (machines that think, learn & act human)\n\ud83d\udc49ML = teaches machines from data\n\ud83d\udc49Neural Networks = brain-inspired pattern spotters\n\ud83d\udc49Deep Learning = multi-layered magic for tough tasks\n\ud83d\udc49Transformers = context-understanding superstars\n\ud83d\udc49GenAI = creates instead of just analyzing\n\ud83d\udc49LLM = trained on mountains of text\n\ud83d\udc49GPT = text-generating beast\n\ud83d\udc49GPT-5.3 = newest & smartest version\n\ud83d\udc49ChatGPT = your everyday genius sidekick\n\nScreenshot this. Save it. Never fake it again\n\nWhich term still gets you? Drop it below \ud83d\udc47",
+        "engagement": 20,
+        "line_count": 12,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "text": "I finally understood how LangGraph works.\n\nBefore this, it felt confusing.\n\nEveryone talks about agents, workflows, nodes, and edges.\nBut nothing really clicks.\n\n\u2e3b\n\nThen I saw it like this.\n\nA user says\n\u2018My order is late\u2019\n\nNow instead of just replying,\nThe system actually tries to figure out what\u2019s going on.\n\nFirst step checks the order.\nThen it decides why it\u2019s late.\nRestaurant issue or rider issue.\n\nBased on that, it takes action.\nOffer a refund or ping the rider.\n\nAnd if it still doesn\u2019t work,\nIt tries again.\n\n\u2e3b\n\nThe key idea is this.\n\nEvery step shares the same memory.\n\nOne step writes.\nNext step reads.\n\nThat\u2019s how the system knows what already happened.\n\n\u2e3b\n\nIn LangGraph terms:\n\nThe state is the shared memory.\nNodes are just functions.\nEdges are the paths between decisions.\n\n\u2e3b\n\nOnce I saw it this way,\nIt stopped feeling like a framework.\n\nIt started feeling like a flow.\n\n\u2e3b\n\nIf you\u2019re learning about AI agents,\nThis mental model helps a lot.\n\nSave this.",
+        "engagement": 50,
+        "line_count": 18,
+        "language": "Hinglish",
+        "tags": [
+            "AI Agents"
+        ]
+    },
+    {
+        "text": "This whiteboard means more to me than it looks.\n\nThere was a time I used to sit quietly in the back, watching others explain system design.\n\nI understood some of it.\nPretended to understand the rest.\n\nI never thought I\u2019d be the one standing in front of a board, explaining AWS architectures to others.\n\nContent creation changed that.\n\nThe first time I recorded a tech video, I was nervous.\nThe first time I explained cloud architecture publicly, I realized how much I didn\u2019t know.\n\nThat feeling could\u2019ve stopped me.\n\nInstead, it pushed me.\n\nEvery time I hit \u2018post,\u2019 I knew I had to be better.\nClearer.\nMore honest.\nMore prepared.\n\nContent didn\u2019t just build an audience.\n\nIt built confidence.\nIt built clarity.\nIt built courage.\n\nIf you\u2019re waiting to feel ready before you start sharing\u2026\nYou\u2019ll wait forever.\n\nStart before you\u2019re ready.\nGrow in public.\nLet the pressure shape you.",
+        "engagement": 155,
+        "line_count": 14,
+        "language": "English",
+        "tags": [
+            "Career Development",
+            "Personal Development"
+        ]
+    },
+    {
+        "text": "If someone wants to start creating educational content on Instagram,\nthese are a few things worth thinking about early.\n\nMost advice around content creation sounds like:\n\u2192 \u2018Post daily.\u2019\n\u2192 \u2018Be consistent.\u2019\n\u2192 \u2018Just explain well.\u2019\n\nThat advice isn\u2019t wrong but it\u2019s often incomplete.\n\nWhile creating short-form educational content over the last few months,\nI tried to anchor my approach in learning science and how people actually consume information on these platforms.\n\nA few patterns kept repeating:\n\n\u2022 One idea per reel\nReducing cognitive load seems to improve comprehension and completion.\n\n\u2022 Simple language matters\nWhen content feels mentally expensive, people disengage quickly.\n\n\u2022 Fundamentals reach more people than advanced topics\nMost learners are still building their base.\n\n\u2022 The first few seconds are critical\nRelevance needs to be clear almost immediately.\n\n\u2022 Examples accelerate understanding\nConcrete scenarios consistently outperform abstract explanations.\n\nI\u2019ve been using these as guiding principles not rigid rules and observing how people respond.\n\nThe growth and engagement that followed feel less like the goal,\nand more like a byproduct of designing for how people learn.\n\nI\u2019m continuing to refine this approach over the next 90 days.\n\nWould genuinely love to hear from educators and experienced professionals here:\nWhich of these align with what you\u2019ve seen work when teaching or explaining concepts?",
+        "engagement": 70,
+        "line_count": 14,
+        "language": "Hinglish",
+        "tags": [
+            "Career Development"
+        ]
+    },
+    {
+        "text": "I built a team of AI Researchers\n\nHere's how the project works:\n\nThe system works through a five-agent pipeline, where each agent performs one specialised task and passes structured JSON to the next stage.\n\nFirst, a Planner Agent receives the user topic and decomposes it into 4-6 precise academic search queries by reasoning across multiple research angles like foundational concepts, methods, benchmarks, applications, and open problems.\n\nNext, a Search Agent executes these queries using Exa and Tavily neural search APIs, retrieving results from trusted domains such as arXiv, IEEE, ACL papers, GitHub repositories, and official documentation.\nA Validator Agent then evaluates every source using a scoring rubric based on credibility, recency, and technical depth, keeping only the top five highest-quality references.\n\nThe Extractor Agent downloads the selected sources, parses PDFs or webpages, and extracts datasets, metrics, key findings, and verbatim quotes while enforcing strict token and character limits.\n\nFinally, the Synthesizer Agent compiles this evidence into a structured Markdown research report with inline citations, ensuring every claim is grounded in real sources.\nThe result is an AI research pipeline that actually researches not just generates text.\n\nHoping this video helps you to generate more such cool projects!\n\nHappy Coding!",
+        "engagement": 180,
+        "line_count": 11,
+        "language": "English",
+        "tags": [
+            "Career Development"
+        ]
+    },
+    {
+        "text": "AI isn\u2019t your competition. The person using it is.\n\nMost coding tools still force you into the same routine.\n\nPlan \u2192 Build \u2192 Wait \u2192 Fix \u2192 Repeat.\n\nYou start something, wait for it to finish, then move to the next part.\n\nThat rhythm slows everything down.\n\nReplit Agent 4 changes that.\n\nNow you can plan, design, and build at the same time.\n\nWhile one task is building the backend,\nyou can work on the UI on an infinite canvas.\n\nAt the same time, another task can handle a different feature or generate assets for the project.\n\nEverything moves in parallel, so you don\u2019t lose momentum.\n\nWhat this means in practice:\n\n1. Run multiple build tasks at once\n2. Design and iterate visually while your app is being built\n3. Create web apps, mobile apps, slides, data tools, and more in the same project\n4. Work with your team while the system handles the heavy lifting\n\nNo jumping between tools.\nNo waiting for one step to finish before starting another.\n\nJust ideas turning into working products much faster.\n\nCreativity runs on Replit.\n\nIf you want to try it yourself:",
+        "engagement": 120,
+        "line_count": 20,
+        "language": "Hinglish",
+        "tags": [
+            "Career Development",
+            "AI Coding Tools"
+        ]
+    },
+    {
+        "text": "The current AI wave is exciting, but also a little scary.\n\nDo we even need to code anymore?\nWhich technologies should we focus on?\nWhat should we actually be learning?\nWill companies just replace engineers with a few AI tools?\n\nInstead of overthinking all the noise, I\u2019m taking on a 30-day challenge.\n\nOver the next month, I\u2019ll build a set of projects to better understand what AI engineers actually build and where the real opportunities are in this space.\n\nIf you want to take this challenge with me, comment below. Let\u2019s build together.\n\nHere\u2019s the list of projects I\u2019ll be building:\n\n1. Autonomous Multi-Agent Research System\nAn AI system where multiple agents collaborate to research a topic, validate sources, extract insights, and generate a structured report with citations.\n\n2. GitHub Codebase Intelligence System\nA tool that ingests an entire GitHub repository and helps developers understand it by generating architecture summaries, explaining modules, and answering questions about the codebase.\n\n3. AI System Design Interview Simulator\nAn AI interviewer that runs system design interviews, asks follow-up questions, evaluates architecture decisions, and gives structured feedback on missing components.\n\n4. Autonomous Web Browsing Agent\nAn AI agent that can navigate websites, gather information, interact with pages, and complete tasks like comparing products or collecting data across multiple sources.\n\n5. AI Knowledge Graph Builder\nA system that ingests large document collections and automatically extracts entities and relationships to build an interactive knowledge graph with semantic search.\n\n6. Self-Improving Prompt Optimization System\nAn AI system that automatically improves prompts by testing outputs, evaluating performance, mutating prompts, and selecting the best performing versions.\n\n7. AI Data Analyst Agent\nA tool where you upload a dataset and the AI performs analysis, finds correlations, generates visualizations, and explains insights in natural language.\n\n8. AI Personal Memory System\nA long-term memory engine that stores documents, notes, and research, enabling semantic search and knowledge recall across everything you\u2019ve uploaded.\n\n9. AI Startup Product Generator\nAn AI system that takes a startup idea and generates a product concept, roadmap, technical architecture, and go-to-market strategy.\n\n10. AI Debugging Assistant\nA system that analyzes a codebase, identifies bugs, traces root causes, and suggests fixes for errors developers encounter.\n\n30 days. 10 projects. Let\u2019s see where this goes.",
+        "engagement": 122,
+        "line_count": 24,
+        "language": "English",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "text": "I used to think my problem was not using AI enough.\n\nTurns out, my problem was using too many tools that didn\u2019t remember anything about me. I\u2019d jump between meetings \u2192 notes \u2192 docs \u2192 ChatGPT \u2192 Notion \u2192 Slack and still ask myself:\n\n\u2018Wait, where did we discuss this?\u2019\n\u2018What was the exact number?\u2019\n\u2018Didn\u2019t someone mention this last month?\u2019\n\nMost AI tools help you respond better. They don\u2019t really help you retain context.\n\nI recently came across TwinMind while exploring tools focused more on memory than generation. What stood out was that it doesn\u2019t start from scratch every time. It keeps track of past meetings, calls, and conversations. It makes decisions, highlights, and follow-ups searchable later, not just transcripts.\n\nThat makes a real difference in roles where losing context is more expensive than not having ideas. It\u2019s not a replacement for ChatGPT. It feels like a different category altogether. AI as working memory, not just a response engine.\n\nWhen I reached out to the TwinMind team to share my feedback, they genuinely appreciated it and mentioned that they see their users as winners who deserve the best. They shared a few TwinMind Pro account accesses with me to pass along.\n\nIf this resonates, comment \u2018ME + your name\u2019 below.\nThey want to know who they\u2019re building for.\n\nSharing this in case it helps anyone thinking about how AI fits into everyday work beyond prompting.",
+        "engagement": 133,
+        "line_count": 17,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence",
+            "AI Agents"
+        ]
+    },
+    {
+        "text": "The Psychology behind Vision Boards (And Why Most People Use Them Wrong)\n\nVision boards don\u2019t work because the universe is listening.\nThey work because your brain is.\n\nWhen done right, vision boards align your attention, emotions, belief system, and actions toward a goal. When done wrong, they turn into aesthetic Pinterest collages that make you feel good but do nothing.\n\nHere\u2019s what\u2019s really happening.\n\n1. Vision Boards Train Your Attention\nYour brain uses something called the Reticular Activating System (RAS) to decide what deserves attention. When you create a vision board, you\u2019re telling your brain: this matters.\n\nFor example, if you add \u2018AI research\u2019 or \u2018startup work\u2019 to your board, you suddenly notice relevant LinkedIn posts, blogs, people, and opportunities. They didn\u2019t magically appear, you just stopped filtering them out.\n\n2. They Boost Motivation Through Emotion\nEmotionally charged images trigger dopamine, the motivation chemical. This is why seeing visuals of goals you care about feels energising. Your brain remembers emotional goals better than abstract to-do lists.\n\nFor example, an image of someone coding late at night sticks more than the text \u2018practice daily\u2019.\n\n3. They Build Self-Belief\nRepeated visualisation strengthens self-efficacy, the belief that you can actually do this. Your brain treats vivid mental rehearsal as practice, making real action feel more familiar and less intimidating.\n\n4. They Work Only When Paired With Action\nThis is where most people fail. Visualising only the outcome (money, success, abs) can reduce effort, a phenomenon called fantasy depletion.\n\nThe fix?\nVisualise the process. Not just \u2018dream job\u2019, but also:\n\n- Studying daily\n- Writing applications\n- Getting rejected and trying again\n\nHow to Build an Effective Vision Board\n- Include process + outcome images\n- Keep it personal, realistic, and visible\n- Review weekly and track real progress\n\nPS: sharing my vision board below for 2026. Share yours in the comments below :)",
+        "engagement": 135,
+        "line_count": 27,
+        "language": "English",
+        "tags": [
+            "Career Development",
+            "Productivity"
+        ]
+    },
+    {
+        "text": "I cracked 9 internships in 2 years, not because I was smarter.\n\nFor a long time, I was stuck doing frontend and full-stack internships. I was learning, but it felt repetitive. I wanted to move into ML and AI, yet every application felt like it disappeared into the void.\n\nSo I stopped applying blindly and changed my approach.\n\nI started an AI blog out of pure curiosity. I wrote about complex ML concepts in simple language, shared code implementations, and documented how I thought through problems. I posted these blogs on LinkedIn, built a small newsletter, and added everything to my resume.\n\nTwo people noticed.\nAn AI startup CEO offered me a data science internship.\nAn IISc professor turned one blog into a project and then an internship.\n\nThat\u2019s when I understood proof of work.\n\nProof of work is demo videos explaining your projects, blogs showing your thinking, GitHub repos with clean READMEs, case studies instead of buzzwords, and a resume that links everything together.\n\nSometimes, you don\u2019t need to be the smartest person in the room, just the most visible one.\n\nps: my financial situation can only allow me to share these tips as presents this year, Happy New Year everyone :))",
+        "engagement": 188,
+        "line_count": 19,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "text": "Most developers think AI coding tools are about writing code faster.\n\nThat\u2019s only the surface.\n\nThe real shift is that AI changes how software gets built.\n\nInstead of spending hours on boilerplate, setup, debugging simple errors, or searching docs, developers can move their time toward architecture, product thinking, and solving harder problems.\n\nThe best engineers are starting to work differently.\n\nThey use AI to:\n\n- Generate first drafts of features\nn- Refactor messy code into cleaner patterns\n- Explain unfamiliar codebases quickly\n- Write tests and edge cases\n- Turn ideas into prototypes in hours instead of weeks\n- Learn new frameworks while building\n\nBut there\u2019s an important truth.\n\nAI doesn\u2019t replace coding knowledge.\nIt amplifies it.\n\nIf you understand systems, logic, and clean engineering principles, AI becomes a force multiplier.\nIf you don\u2019t, it can generate confusion faster.\n\nThe future developer may write fewer lines manually, but they\u2019ll need stronger judgment than ever.\n\nKnowing what to build.\nKnowing what good code looks like.\nKnowing when the AI is wrong.\nKnowing how to ship real products.\n\nCode is not disappearing.\nThe role of the coder is evolving.\n\nThe people who learn to direct AI well will have an unfair advantage.\n\nThis is only the beginning.",
+        "engagement": 66,
+        "line_count": 19,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "text": "Most people learn Linear Regression as just another machine learning algorithm.\n\nBut it\u2019s much more important than that.\n\nLinear Regression is where many people first understand how data can predict outcomes.\n\nAt its core, it tries to find the best straight line through data points.\nThat line helps explain the relationship between inputs and outputs.\n\nFor example:\n\n- Study hours \u2192 Exam score\n- House size \u2192 Price\n- Ad spend \u2192 Sales\n- Experience \u2192 Salary\n\nInstead of guessing patterns manually, the model learns the trend mathematically.\n\nWhy it matters:\n\n- Easy to understand and explain\n- Fast to train even on large datasets\n- Strong baseline for prediction problems\n- Shows which features influence results\n- Builds intuition for advanced ML models\n\nBut there\u2019s an important truth.\n\nLinear Regression works best when relationships are roughly linear.\nIf data is noisy, highly complex, or non-linear, accuracy can drop.\n\nThat\u2019s why real analysts don\u2019t just run the model.\nThey check assumptions, clean data, remove outliers, and evaluate performance.\n\nWhat makes it powerful is not complexity.\nIt\u2019s clarity.\n\nIt teaches you how variables connect.\nHow prediction works.\nHow models learn from examples.\n\nBefore neural networks and advanced AI,\nunderstanding Linear Regression builds the foundation.\n\nSometimes the simplest model teaches the deepest lessons.",
+        "engagement": 55,
+        "line_count": 23,
+        "language": "Hinglish",
+        "tags": [
+            "Artificial Intelligence",
+            "Machine Learning"
+        ]
+    }
+]
