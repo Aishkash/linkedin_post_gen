@@ -71,7 +71,7 @@ def footer():
             font-size:14px;
             margin-top:10px;
         ">
-        I am here to help
+        I am always here to help
         </p>
         """,
         unsafe_allow_html=True
