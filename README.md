@@ -4,10 +4,20 @@
 This project is designed to help users create professional posts for LinkedIn, utilizing automation to streamline the process.
 
 ## Features
-- Generate custom posts based on user input.
-- Edit and refine text for better engagement.
-- Schedule posts for optimal visibility.
-- User-friendly interface for easy navigation.
+* AI-generated LinkedIn posts
+* Topic-based generation
+* English / Hinglish support
+* Short / Medium / Long formats
+* Custom prompt input
+* Beautiful Streamlit UI
+
+## Tech Stack
+
+* Python
+* Streamlit
+* LangChain
+* Groq API / LLM
+* JSON Dataset
 
 ## Installation Instructions
 1. Clone the repository:
@@ -22,18 +32,39 @@ This project is designed to help users create professional posts for LinkedIn, u
    ```bash
    npm install
    ```
+## Environment Variables
 
-## Usage Guide
-- To start the application, run:
+### Create .env
+```bash
+   GROQ_API_KEY=your_api_key_here
+   ```
+### To start the application, run:
    ```bash
    npm start
    ```
 - Follow the on-screen instructions to create and manage your LinkedIn posts.
 
-## Project Structure
-- `src/` - Contains all the source code for the application.
-- `assets/` - Contains images and other static resources.
-- `tests/` - Contains unit tests for verifying functionality.
+## folder Structure
+```bash
+linkedin_post_gen/
+│── main.py
+│── ui.py
+│── styles.css
+│── post_generator.py
+│── few_shot.py
+│── llm_help.py
+│── preprocess.py
+│── README.md
+│── requirements.txt
+│── .gitignore
+│── .env
+│
+├── Data/
+│   ├── raw_post.json
+│   └── processed_posts.json
+│
+└── __pycache__/
+   ```
 
 ## Dependencies
 - React
