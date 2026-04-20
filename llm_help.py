@@ -1,6 +1,5 @@
-from dotenv import load_dotenv
-from langchain_groq import ChatGroq
 import os
+from langchain_groq import ChatGroq
 
 try:
     from dotenv import load_dotenv
@@ -8,9 +7,7 @@ try:
 except:
     pass
 
-llm=ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model="llama-3.1-8b-instant")
-
-
-if __name__=="__main__":
-    response=llm.invoke("What is the capital of France?")
-    print(response.content)
+llm = ChatGroq(
+    groq_api_key=os.getenv("GROQ_API_KEY"),
+    model="llama-3.1-8b-instant"
+)
