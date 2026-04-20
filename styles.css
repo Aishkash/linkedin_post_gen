@@ -1,0 +1,76 @@
+.stApp {
+    background: linear-gradient(135deg, #5FA8D3 0%, #E8E2C8 68%, #E8D36A 100%);
+}
+
+/* Main centered container */
+.block-container {
+    max-width: 1050px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Header */
+.main-title {
+    font-size: 58px;
+    font-weight: 800;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1.1;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 22px;
+    color: #1f3b5b;
+    margin-bottom: 28px;
+}
+
+/* Labels */
+label {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #1f3b5b !important;
+}
+
+/* Inputs / Select boxes */
+.stSelectbox div[data-baseweb="select"] > div,
+.stTextArea textarea {
+    font-size: 16px !important;
+    border-radius: 12px !important;
+}
+
+/* Text area */
+.stTextArea textarea {
+    min-height: 140px !important;
+}
+
+/* Button */
+.stButton > button {
+    background: linear-gradient(90deg, #FFD54F, #FFECB3);
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 24px;
+    border-radius: 14px;
+    border: none;
+    width: 100%;
+}
+
+/* Output content */
+.output-box {
+    background: rgba(255,255,255,0.78);
+    padding: 26px;
+    border-radius: 18px;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #111111;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Footer */
+hr {
+    margin-top: 35px;
+}
