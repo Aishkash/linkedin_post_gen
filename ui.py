@@ -13,9 +13,9 @@ def page_header():
     st.markdown(
         """
         <div class="header-container">
-            <h1 class="main-title">✨ LinkedIn Post Generator</h1>
+            <h1 class="main-title">LinkedIn Post Generator</h1>
             <p class="sub-title">
-                Create high-engagement LinkedIn posts in seconds 🚀
+                Create high-engagement LinkedIn posts in seconds 
             </p>
         </div>
         """,
