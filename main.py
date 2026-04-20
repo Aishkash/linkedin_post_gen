@@ -28,12 +28,16 @@ def main():
     with col3:
         # Dropdown for Language
         selected_language = st.selectbox("Language", options=language_options)
-
-
+    
+    custom_prompt = st.text_area(
+        "Additional Context (Optional)",
+        placeholder="e.g., Focus on AI trends, Make it motivational, Include implementation tips...",
+        height=100
+    )
 
     # Generate Button
     if st.button("Generate"):
-        post = generate_post(selected_length, selected_language, selected_tag)
+        post = generate_post(selected_length, selected_language, selected_tag, custom_prompt)
         st.write(post)
 
 
